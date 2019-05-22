@@ -6,5 +6,6 @@ E-commerce app using React.
 * Bootstrap for css npm i --save boostrap
 * [Google Fonts](https://fonts.google.com/)
 * [Font Awesome](https://fontawesome.com/)
+* [Icon Finder](https://www.iconfinder.com/)
 
 
