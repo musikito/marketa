@@ -8,32 +8,37 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-sm bg-primary navbar-dark px-sm-5">
         <Link to="/">
-          <img src={logo} alt="store" className="navbar-brand"/>
+          <img
+            src={logo}
+            height="100px"
+            width="100px"
+            alt="store"
+            className="navbar-brand"
+          />
         </Link>
 
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
-             <Link to="/" className="nav-link">
+            <Link to="/" className="nav-link">
               products
-             </Link>
+            </Link>
           </li>
         </ul>
 
         <Link className="ml-auto" to="/cart">
-            <ButtonContainer>
-              <span className="mr-2">
-                <i className="fas fa-cart-plus"></i>
-              </span>
-              my cart
-            </ButtonContainer> 
+          <ButtonContainer>
+            <span className="mr-2">
+              <i className="fas fa-cart-plus" />
+            </span>
+            my cart
+          </ButtonContainer>
         </Link>
-
       </nav>
     );
   }
 }
 
-const ButtonContainer = Styled.button `
+const ButtonContainer = Styled.button`
   text-transform:capitalized;
   font-size:1.4rem;
   background:transparent;
