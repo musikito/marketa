@@ -1,5 +1,6 @@
 # Marketa
 
+![marketa](./logo.png)
 E-commerce app using React.
 
 ## Dependencies
@@ -7,5 +8,6 @@ E-commerce app using React.
 * [Google Fonts](https://fonts.google.com/)
 * [Font Awesome](https://fontawesome.com/)
 * [Icon Finder](https://www.iconfinder.com/)
+* [Styled Compnonents](https://www.styled-components.com/)
 
 
