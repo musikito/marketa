@@ -1,6 +1,6 @@
 :root {
-  --mainBlue: #2a2a72;
-  --lightBlue: #009ffd;
+  --mainBlue: #51BFD2;
+  --lightBlue: rgb(101, 165, 150);
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
   --mainYellow: #ffa400;
@@ -13,7 +13,7 @@ body {
 }
 
 .text-title {
-  font-family: 'Permanent Marker',cursive;
+  font-family: 'Merriweather', serif;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
@@ -28,7 +28,7 @@ body {
 
 .btn-black {
   background: transparent;
-  text-transfor: capitalize;
+  text-transform: capitalize;
   font-size: 0.8rem !important;
   color: var(--mainDark);
   border-radius: 0 !important;

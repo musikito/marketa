@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {storeProducts, detailProduct} from './data'
-import { runInThisContext } from 'vm';
+
 
 const ProductContext = React.createContext();
 
@@ -32,7 +32,7 @@ class ProductProvider extends Component {
   }
 
   getItem = (id) => {
-    const product = this.state.products.find(item=>  item.id == id);
+    const product = this.state.products.find(item=>  item.id === id);
     return product;
   }
 
